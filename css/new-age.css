@@ -32,7 +32,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #DD5550;
+  color: #00000;
 }
 hr {
   max-width: 100px;
@@ -76,7 +76,7 @@ p {
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #fcbd20;
+  color: #DD5550;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
@@ -369,6 +369,12 @@ section.contact ul.list-social li.social-google-plus a {
 section.contact ul.list-social li.social-google-plus a:hover {
   background-color: #d73925;
 }
+section.contact ul.list-social li.social-instagram a {
+  background-color: yellow;
+}
+section.contact ul.list-social li.social-instagram a:hover {
+  background-color: yellow;
+}
 footer {
   background-color: #222222;
   padding: 25px 0;
@@ -414,7 +420,7 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #DD5550;
+  background-color: #000000;
   border-color: #DD5550;
 }
 .btn {
